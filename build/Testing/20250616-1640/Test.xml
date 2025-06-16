@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250616-1640-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.0.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-LJEAGBI"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="29108"
+	TotalPhysicalMemory="16308"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3696"
+	>
+	<Testing>
+		<StartDateTime>Jun 16 12:55 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1750092901</StartTestTime>
+		<TestList>
+			<Test>./HermiteTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>HermiteTest</Name>
+			<Path>.</Path>
+			<FullName>./HermiteTest</FullName>
+			<FullCommandLine>F:\python\project\gaussian-integrals-cpp\build\test_hermite.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0071943</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>F:\python\project\gaussian-integrals-cpp\build\test_hermite.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Expected: 1, Got: 1
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 16 12:55 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1750092901</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

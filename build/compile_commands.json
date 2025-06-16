@@ -1,0 +1,14 @@
+[
+{
+  "directory": "F:/python/project/gaussian-integrals-cpp/build",
+  "command": "F:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/test_hermite.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_hermite.dir\\tests\\test_hermite.cpp.obj -c F:\\python\\project\\gaussian-integrals-cpp\\tests\\test_hermite.cpp",
+  "file": "F:/python/project/gaussian-integrals-cpp/tests/test_hermite.cpp",
+  "output": "CMakeFiles/test_hermite.dir/tests/test_hermite.cpp.obj"
+},
+{
+  "directory": "F:/python/project/gaussian-integrals-cpp/build",
+  "command": "F:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/test_hermite.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test_hermite.dir\\src\\hermite.cpp.obj -c F:\\python\\project\\gaussian-integrals-cpp\\src\\hermite.cpp",
+  "file": "F:/python/project/gaussian-integrals-cpp/src/hermite.cpp",
+  "output": "CMakeFiles/test_hermite.dir/src/hermite.cpp.obj"
+}
+]

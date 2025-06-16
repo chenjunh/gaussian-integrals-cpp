@@ -1,0 +1,19 @@
+Start testing: Jun 16 12:55 Eastern Daylight Time
+----------------------------------------------------------
+1/1 Testing: HermiteTest
+1/1 Test: HermiteTest
+Command: "F:/python/project/gaussian-integrals-cpp/build/test_hermite.exe"
+Directory: F:/python/project/gaussian-integrals-cpp/build
+"HermiteTest" start time: Jun 16 12:55 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Expected: 1, Got: 1
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HermiteTest" end time: Jun 16 12:55 Eastern Daylight Time
+"HermiteTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 12:55 Eastern Daylight Time

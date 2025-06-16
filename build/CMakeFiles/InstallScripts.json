@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/python/project/gaussian-integrals-cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
