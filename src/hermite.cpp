@@ -2,8 +2,20 @@
 #include "../include/hermite.hpp"
 
 // Recursive function to build Hermite Gaussian coefficients
+//ref: https://joshuagoings.com/assets/integrals.pdf
 double build_hermite_gaussian(int i,int j,int t, double Qx, double a, double b) 
-{    /*return hermite gaussian coefficients*/
+{
+/*
+Recursive definition of Hermite Gaussian coefficients.
+Returns a float.
+a: orbital exponent on Gaussian 'a' (e.g. alpha in the text)
+b: orbital exponent on Gaussian 'b' (e.g. beta in the text)
+i,j: orbital angular momentum number on Gaussian 'a' and 'b'
+t: number nodes in Hermite (depends on type of integral,
+e.g. always zero for overlap integrals)
+Qx: distance between origins of Gaussian 'a' and 'b'
+*/ 
+
     double p=a+b;
     double q=a*b/p;
     if (t<0 || t>i+j) {

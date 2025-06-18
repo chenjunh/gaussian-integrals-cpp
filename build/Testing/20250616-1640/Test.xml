@@ -25,8 +25,8 @@
 	ProcessorClockFrequency="3696"
 	>
 	<Testing>
-		<StartDateTime>Jun 16 12:55 Eastern Daylight Time</StartDateTime>
-		<StartTestTime>1750092901</StartTestTime>
+		<StartDateTime>Jun 17 20:56 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1750208162</StartTestTime>
 		<TestList>
 			<Test>./HermiteTest</Test>
 		</TestList>
@@ -37,7 +37,7 @@
 			<FullCommandLine>F:\python\project\gaussian-integrals-cpp\build\test_hermite.exe</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0071943</Value>
+					<Value>0.0309697</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -52,13 +52,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value>Expected: 1, Got: 1
-</Value>
+					<Value encoding="base64" compression="gzip">eJyLLo5VCKxQsFUw1DNQqFFwrShITS5JTbFSMNAzN7ewMDDUUXDPL0FwuaILcGjQNdAztrA0gaqH8riiU6DKD22EaNAOrACZZmphYggyXBeZy+WYk6NQklpcUqxQkFhcnJqixwUAKFgqHA==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Jun 16 12:55 Eastern Daylight Time</EndDateTime>
-		<EndTestTime>1750092901</EndTestTime>
+		<EndDateTime>Jun 17 20:56 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1750208162</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
