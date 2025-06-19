@@ -1,2 +1,2 @@
-HermiteTest 4 0.0386045
+HermiteTest 7 0.0365781
 ---
