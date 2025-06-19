@@ -1,23 +1,24 @@
-Start testing: Jun 18 22:46 Eastern Daylight Time
+Start testing: Jun 19 11:55 Eastern Daylight Time
 ----------------------------------------------------------
 1/1 Testing: HermiteTest
 1/1 Test: HermiteTest
 Command: "F:/python/project/gaussian-integrals-cpp/build/test_hermite.exe"
 Directory: F:/python/project/gaussian-integrals-cpp/build
-"HermiteTest" start time: Jun 18 22:46 Eastern Daylight Time
+"HermiteTest" start time: Jun 19 11:55 Eastern Daylight Time
 Output:
 ----------------------------------------------------------
-[s] Qx = 1.0 | Expected: 0.778801, Got: 0.778801
-[p] Qx = 1.0 | Expected: -0.3894, Got: -0.3894
-[d] Qx = 1.0 | Expected: 0.584101, Got: 0.584101
-[d] Qx = +/-1.0 | +Qx: 0.584101, -Qx: 0.584101
+[ss] Qx = 1.0 | Expected: 0.778801, Got: 0.778801
+[sp] Qx = 1.0 | Expected: -0.3894, Got: -0.3894
+[sd] Qx = 1.0 | Expected: 0.584101, Got: 0.584101
+[sd] Qx = +/-1.0 | +Qx: 0.584101, -Qx: 0.584101
+[pp] Qx = 1.0 | Expected: 0.1947, Got: 0.1947
 All tests passed.
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HermiteTest" end time: Jun 18 22:46 Eastern Daylight Time
+"HermiteTest" end time: Jun 19 11:55 Eastern Daylight Time
 "HermiteTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 18 22:46 Eastern Daylight Time
+End testing: Jun 19 11:55 Eastern Daylight Time

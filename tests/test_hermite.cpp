@@ -21,7 +21,7 @@ int main() {
         double mu = a * b / (a + b);
         double expected = std::exp(-mu * Qx * Qx);
         double result = build_hermite_gaussian(0, 0, 0, Qx, a, b);
-        std::cout << "[s] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
+        std::cout << "[ss] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
         assert_close(result, expected);
     }
 
@@ -32,7 +32,7 @@ int main() {
         double mu = a * b / P;
         double expected = -2.0 * mu * Qx * std::exp(-mu * Qx * Qx);  // From H1(x) = 2x
         double result = build_hermite_gaussian(1, 0, 0, Qx, a, b);
-        std::cout << "[p] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
+        std::cout << "[sp] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
         assert_close(result, expected);
     }
 
@@ -42,7 +42,7 @@ int main() {
         double P = a + b;
         double expected = gaussian_overlap_1D(2, 0, a, 0, b, Qx)/std::sqrt(M_PI/P);
         double result = build_hermite_gaussian(2, 0, 0, Qx, a, b);
-        std::cout << "[d] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
+        std::cout << "[sd] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
         assert_close(result, expected);
     }
 
@@ -52,8 +52,18 @@ int main() {
         double Qx_neg = -1.0;
         double result_pos = build_hermite_gaussian(2, 0, 0, Qx_pos, a, b);
         double result_neg = build_hermite_gaussian(2, 0, 0, Qx_neg, a, b);
-        std::cout << "[d] Qx = +/-1.0 | +Qx: " << result_pos << ", -Qx: " << result_neg << std::endl;
+        std::cout << "[sd] Qx = +/-1.0 | +Qx: " << result_pos << ", -Qx: " << result_neg << std::endl;
         assert_close(result_pos, result_neg);
+    }
+
+    // === Test 5: Overlap between p-type and p-type Gaussians (i = 1, j = 1)  ===
+    {
+        double Qx = 1.0;
+        double P = a + b;
+        double expected = gaussian_overlap_1D(1, 1, a, 0, b, Qx)/std::sqrt(M_PI/P);
+        double result = build_hermite_gaussian(1, 1, 0, Qx, a, b);
+        std::cout << "[pp] Qx = 1.0 | Expected: " << expected << ", Got: " << result << std::endl;
+        assert_close(result, expected);
     }
 
     std::cout << "All tests passed." << std::endl;
