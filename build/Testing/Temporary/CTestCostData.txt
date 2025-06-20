@@ -1,3 +1,0 @@
-HermiteTest 17 0.0399879
-OverlapTest 2 0.0336203
----

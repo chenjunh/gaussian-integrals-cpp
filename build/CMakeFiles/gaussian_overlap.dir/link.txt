@@ -1,3 +1,0 @@
-F:\cmake\bin\cmake.exe -E rm -f CMakeFiles\gaussian_overlap.dir/objects.a
-F:\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\gaussian_overlap.dir/objects.a @CMakeFiles\gaussian_overlap.dir\objects1.rsp
-F:\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\gaussian_overlap.dir/objects.a -Wl,--no-whole-archive -o gaussian_overlap.exe -Wl,--out-implib,libgaussian_overlap.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gaussian_overlap.dir\linkLibs.rsp

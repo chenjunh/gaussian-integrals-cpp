@@ -1,5 +1,0 @@
-F:/python/project/gaussian-integrals-cpp/build/CMakeFiles/test_hermite.dir
-F:/python/project/gaussian-integrals-cpp/build/CMakeFiles/test_overlap.dir
-F:/python/project/gaussian-integrals-cpp/build/CMakeFiles/test.dir
-F:/python/project/gaussian-integrals-cpp/build/CMakeFiles/edit_cache.dir
-F:/python/project/gaussian-integrals-cpp/build/CMakeFiles/rebuild_cache.dir
