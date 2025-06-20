@@ -25,19 +25,19 @@
 	ProcessorClockFrequency="3696"
 	>
 	<Testing>
-		<StartDateTime>Jun 19 11:55 Eastern Daylight Time</StartDateTime>
-		<StartTestTime>1750348531</StartTestTime>
+		<StartDateTime>Jun 20 00:05 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1750392302</StartTestTime>
 		<TestList>
-			<Test>./HermiteTest</Test>
+			<Test>./OverlapTest</Test>
 		</TestList>
 		<Test Status="passed">
-			<Name>HermiteTest</Name>
+			<Name>OverlapTest</Name>
 			<Path>.</Path>
-			<FullName>./HermiteTest</FullName>
-			<FullCommandLine>F:\python\project\gaussian-integrals-cpp\build\test_hermite.exe</FullCommandLine>
+			<FullName>./OverlapTest</FullName>
+			<FullCommandLine>F:\python\project\gaussian-integrals-cpp\build\test_overlap.exe</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0319502</Value>
+					<Value>0.0334474</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -46,18 +46,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>F:\python\project\gaussian-integrals-cpp\build\test_hermite.exe</Value>
+					<Value>F:\python\project\gaussian-integrals-cpp\build\test_overlap.exe</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyLLi6OVQisULBVMNQzUKhRcK0oSE0uSU2xUjDQMze3sDAw1FFwzy9BcLmiiwtw6NA10DO2sDSBaoDygOpTcNpgamFiiGQDhIukQ1tfF6JJO7ACWb0uMpcrugCXiwz0DC1NzOHmgzhcjjk5CiWpxSXFCgWJxcWpKXpcAFQrQ2Y=</Value>
+					<Value encoding="base64" compression="gzip">eJyLLi6OVahRcK0oSE0uSU2xUjDSMzM2MLLUUXDPL4HzuKKLC1CV6RrqGRuaGppC1cG4QIUpqAoN9SzNjcyNoOqgPC7HnByFktTikmKFgsTi4tQUPS4ATj4mJQ==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Jun 19 11:55 Eastern Daylight Time</EndDateTime>
-		<EndTestTime>1750348531</EndTestTime>
+		<EndDateTime>Jun 20 00:05 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1750392302</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

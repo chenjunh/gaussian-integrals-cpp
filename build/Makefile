@@ -138,12 +138,26 @@ test_hermite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_hermite.dir\build.make CMakeFiles/test_hermite.dir/build
 .PHONY : test_hermite/fast
 
+#=============================================================================
+# Target rules for targets named test_overlap
+
+# Build rule for target.
+test_overlap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_overlap
+.PHONY : test_overlap
+
+# fast build rule for target.
+test_overlap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/build
+.PHONY : test_overlap/fast
+
 src/hermite.obj: src/hermite.cpp.obj
 .PHONY : src/hermite.obj
 
 # target to build an object file
 src/hermite.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_hermite.dir\build.make CMakeFiles/test_hermite.dir/src/hermite.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/src/hermite.cpp.obj
 .PHONY : src/hermite.cpp.obj
 
 src/hermite.i: src/hermite.cpp.i
@@ -152,6 +166,7 @@ src/hermite.i: src/hermite.cpp.i
 # target to preprocess a source file
 src/hermite.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_hermite.dir\build.make CMakeFiles/test_hermite.dir/src/hermite.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/src/hermite.cpp.i
 .PHONY : src/hermite.cpp.i
 
 src/hermite.s: src/hermite.cpp.s
@@ -160,6 +175,7 @@ src/hermite.s: src/hermite.cpp.s
 # target to generate assembly for a file
 src/hermite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_hermite.dir\build.make CMakeFiles/test_hermite.dir/src/hermite.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/src/hermite.cpp.s
 .PHONY : src/hermite.cpp.s
 
 tests/test_hermite.obj: tests/test_hermite.cpp.obj
@@ -186,6 +202,30 @@ tests/test_hermite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_hermite.dir\build.make CMakeFiles/test_hermite.dir/tests/test_hermite.cpp.s
 .PHONY : tests/test_hermite.cpp.s
 
+tests/test_overlap.obj: tests/test_overlap.cpp.obj
+.PHONY : tests/test_overlap.obj
+
+# target to build an object file
+tests/test_overlap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/tests/test_overlap.cpp.obj
+.PHONY : tests/test_overlap.cpp.obj
+
+tests/test_overlap.i: tests/test_overlap.cpp.i
+.PHONY : tests/test_overlap.i
+
+# target to preprocess a source file
+tests/test_overlap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/tests/test_overlap.cpp.i
+.PHONY : tests/test_overlap.cpp.i
+
+tests/test_overlap.s: tests/test_overlap.cpp.s
+.PHONY : tests/test_overlap.s
+
+# target to generate assembly for a file
+tests/test_overlap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_overlap.dir\build.make CMakeFiles/test_overlap.dir/tests/test_overlap.cpp.s
+.PHONY : tests/test_overlap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -196,12 +236,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... test_hermite
+	@echo ... test_overlap
 	@echo ... src/hermite.obj
 	@echo ... src/hermite.i
 	@echo ... src/hermite.s
 	@echo ... tests/test_hermite.obj
 	@echo ... tests/test_hermite.i
 	@echo ... tests/test_hermite.s
+	@echo ... tests/test_overlap.obj
+	@echo ... tests/test_overlap.i
+	@echo ... tests/test_overlap.s
 .PHONY : help
 
 

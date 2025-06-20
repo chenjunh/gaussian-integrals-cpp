@@ -1,4 +1,23 @@
-echo "build/" >> .gitignore
-echo "*.exe" >> .gitignore
-echo "*.vcxproj*" >> .gitignore
-echo "*.sln" >> .gitignore
+# Build directory (CMake)
+build/
+
+# VSCode config (optional — only if you don't want to track your IDE settings)
+.vscode/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executables
+*.exe
+*.out
+*.app
+*.a
+*.o
+*.obj
+
+# CMake API replies
+**/.cmake/api/v1/reply/*.json
+
